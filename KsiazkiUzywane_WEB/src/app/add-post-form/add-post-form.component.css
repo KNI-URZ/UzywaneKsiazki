@@ -1,0 +1,23 @@
+.add-post-container form
+{
+    background-color: white;
+    width:40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.add-post-container form :last-child
+{
+    width: 10%;
+    background: linear-gradient(to left, black 0%,gray 50% ,black 100%);
+}
+
+.back-to-main-page
+{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+
+}
